@@ -1,61 +1,68 @@
-# Olá, eu sou o Diogo 👋
-
-💻 **Desenvolvedor Full-stack** | Java, Spring Boot, React  
-🚀 Construindo APIs, aplicações web escaláveis e soluções completas  
-
----
-
-## 🔗 Contato
-📫 Email: diogosantosmeneses@gmail.com 
-💼 LinkedIn: [linkedin.com/in/diogomenesess](www.linkedin.com/in/diogomenesess)  
-🌐 Portfólio: [SeuSiteAqui.com](https://SeuSiteAqui.com)
+<div style="background-color:#1a1aff; color:white; padding:20px; border-radius:10px; text-align:center">
+  <h1>Olá, eu sou o Diogo 👋</h1>
+  <p>💻 Desenvolvedor Full-stack | Java, Spring Boot | React</p>
+  <p>🚀 Construindo APIs e aplicações web escaláveis e funcionais</p>
+  <p>📫 Contato: <a href="mailto:diogomeneses@email.com" style="color:yellow">diogomeneses@email.com</a> | 
+  <a href="https://linkedin.com/in/diogomeneses" style="color:yellow">LinkedIn</a></p>
+</div>
 
 ---
 
-## 🏆 Projetos em Destaque
-- **Digital Bank** – Sistema bancário completo (Backend + Frontend)  
-- **Star Wars Catalog** – Catálogo de filmes em Java  
-- **Portfolio Website** – Site pessoal mostrando meus projetos  
-
-> Cada projeto tem README detalhado com instruções para rodar, screenshots e GIFs.
-
----
-
-## ⚡ Tecnologias & Ferramentas
-![Java](https://img.shields.io/badge/-Java-007396?style=flat&logo=java&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/-Spring%20Boot-6DB33F?style=flat&logo=spring&logoColor=white)
-![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black)
-![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white)
-![Maven](https://img.shields.io/badge/-Maven-C71A36?style=flat&logo=apachemaven&logoColor=white)
-![Postman](https://img.shields.io/badge/-Postman-FF6C37?style=flat&logo=postman&logoColor=white)
-![H2 Database](https://img.shields.io/badge/-H2%20Database-2D8BFF?style=flat&logoColor=white)
+<div style="background-color:#6666ff; color:white; padding:15px; border-radius:10px">
+  <h2>🏆 Projetos em Destaque</h2>
+  <ul>
+    <li><b>Digital Bank</b> – Sistema bancário completo (Backend + Frontend)</li>
+    <li><b>Star Wars Catalog</b> – Catálogo de filmes em Java</li>
+    <li><b>Portfolio Website</b> – Site pessoal mostrando meus projetos</li>
+  </ul>
+</div>
 
 ---
 
-## 📊 Estatísticas do GitHub
-![Diogo's GitHub Stats](https://github-readme-stats.vercel.app/api?username=SeuUsuario&show_icons=true&theme=radical&hide=prs,issues)
-![Diogo's Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SeuUsuario&layout=compact&theme=radical)
+<div style="background-color:#1a1aff; color:white; padding:15px; border-radius:10px">
+  <h2>⚡ Tecnologias & Ferramentas</h2>
+  <p>
+    <img src="https://img.shields.io/badge/-Java-007396?style=flat&logo=java&logoColor=white" /> 
+    <img src="https://img.shields.io/badge/-Spring%20Boot-6DB33F?style=flat&logo=spring&logoColor=white" />
+    <img src="https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black" />
+    <img src="https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white" />
+    <img src="https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white" />
+    <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" />
+  </p>
+</div>
 
 ---
 
-## 💡 Sobre mim
-- Adoro **desenvolver soluções full-stack** e trabalhar com APIs REST.  
-- Sempre busco **aprimorar minhas habilidades em Java, Spring Boot e React**.  
-- Gosto de criar projetos que sejam **visuais, funcionais e testáveis**, prontos para portfólio profissional.  
+<div style="background-color:#6666ff; color:white; padding:15px; border-radius:10px">
+  <h2>📊 Estatísticas do GitHub</h2>
+  <p>
+    <img src="https://github-readme-stats.vercel.app/api?username=SeuUsuario&show_icons=true&theme=radical" alt="Diogo's GitHub Stats"/>
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SeuUsuario&layout=compact&theme=radical" alt="Diogo's Top Languages"/>
+  </p>
+</div>
 
 ---
 
-## 🎯 Objetivo
-Construir **aplicações modernas, escaláveis e de qualidade**, que demonstrem meu conhecimento e capacidade de entrega.  
-Este perfil é um **portfólio vivo**, mostrando minhas habilidades e projetos completos.
+<div style="background-color:#1a1aff; color:white; padding:15px; border-radius:10px">
+  <h2>💡 Sobre mim</h2>
+  <ul>
+    <li>Adoro desenvolver soluções full-stack e trabalhar com APIs REST</li>
+    <li>Sempre busco aprimorar minhas habilidades em Java, Spring Boot e React</li>
+    <li>Gosto de criar projetos visuais, funcionais e testáveis</li>
+  </ul>
+</div>
 
 ---
 
-## 📌 Extras Visuais
-- Inclua **GIFs curtos** nos projetos para mostrar funcionalidades.  
-- Use **badges** para tecnologias e status de projeto.  
-- Atualize o README periodicamente para mostrar evolução contínua.
+<div style="background-color:#6666ff; color:white; padding:15px; border-radius:10px">
+  <h2>🎯 Objetivo</h2>
+  <p>Construir aplicações modernas, escaláveis e de qualidade, demonstrando conhecimento e capacidade de entrega. Este perfil é um portfólio vivo mostrando minhas habilidades e projetos completos.</p>
+</div>
 
+---
+
+<div style="background-color:#1a1aff; color:white; padding:15px; border-radius:10px; text-align:center">
+  <h2>🐍 Commit Snake</h2>
+  <p>Minha cobrinha devorando commits recentes 😎</p>
+  <img src="https://media.giphy.com/media/SEU_GIF_LINK/giphy.gif" alt="Cobrinha comendo commits" style="border-radius:10px"/>
+</div>
