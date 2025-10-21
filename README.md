@@ -6,8 +6,8 @@
 ---
 
 ## 🔗 Contato
-📫 Email: diogomeneses@email.com  
-💼 LinkedIn: [linkedin.com/in/diogomeneses](https://linkedin.com/in/diogomeneses)  
+📫 Email: diogosantosmeneses@gmail.com 
+💼 LinkedIn: [linkedin.com/in/diogomenesess](www.linkedin.com/in/diogomenesess)  
 🌐 Portfólio: [SeuSiteAqui.com](https://SeuSiteAqui.com)
 
 ---
