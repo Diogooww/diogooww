@@ -59,10 +59,3 @@
   <p>Construir aplicações modernas, escaláveis e de qualidade, demonstrando conhecimento e capacidade de entrega. Este perfil é um portfólio vivo mostrando minhas habilidades e projetos completos.</p>
 </div>
 
----
-
-<div style="background-color:#1a1aff; color:white; padding:15px; border-radius:10px; text-align:center">
-  <h2>🐍 Commit Snake</h2>
-  <p>Minha cobrinha devorando commits recentes 😎</p>
-  <img src="https://media.giphy.com/media/SEU_GIF_LINK/giphy.gif" alt="Cobrinha comendo commits" style="border-radius:10px"/>
-</div>
