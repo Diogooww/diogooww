@@ -3,7 +3,7 @@
   <p>💻 Desenvolvedor Full-stack | Java, Spring Boot | React</p>
   <p>🚀 Construindo APIs e aplicações web escaláveis e funcionais</p>
   <p>📫 Contato: <a href="mailto:diogomeneses@email.com" style="color:yellow">diogomeneses@email.com</a> | 
-  <a href="https://linkedin.com/in/diogomeneses" style="color:yellow">LinkedIn</a></p>
+  <a href="https://www.linkedin.com/in/diogomenesess?utm_source=share_via&utm_content=profile&utm_medium=member_ios" style="color:yellow">LinkedIn</a></p>
 </div>
 
 ---
