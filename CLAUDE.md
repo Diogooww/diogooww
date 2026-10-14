@@ -26,3 +26,12 @@ Ao retomar o projeto, ler primeiro:
 Subpastas: `arquitetura/`, `decisoes-tecnicas/`, `implementacoes/`, `bugs/`, `pendencias/`. Raiz tambem tem `README.md` e `session-log.md`.
 
 Regras registradas nas notas: o usuario escreve o codigo e a IA guia e revisa (so edita quando pedido direto); IA nao le `.env`/`cofre.env` nem arquivos de pedido; nomes de codigo em ingles, mensagens em portugues.
+
+### Padrao do JSON do pedido (decidido 2026-10-14)
+
+Detalhes em `decisoes-tecnicas/padrao-campos-json.md`. Vale para robo novo e robo refeito.
+
+- `CNPJBunzl`: ler do PDF, no campo do fornecedor (CNPJ do fornecedor). Nunca constante fixa.
+- `CNPJEntrega`: nunca enviar, sempre `""`.
+
+Exemplo de robo de PDF: `implementacoes/gkt-exemplo-robo-pdf.md`.
