@@ -35,3 +35,15 @@ Detalhes em `decisoes-tecnicas/padrao-campos-json.md`. Vale para robo novo e rob
 - `CNPJEntrega`: nunca enviar, sempre `""`.
 
 Exemplo de robo de PDF: `implementacoes/gkt-exemplo-robo-pdf.md`.
+
+### Padrao de codigo limpo dos robos (decidido 2026-10-14)
+
+Detalhes em `decisoes-tecnicas/padrao-codigo-limpo.md`. Modelo: `novo_cliente.py`. Aplicar em todo codigo novo ou refeito.
+
+- Ordem do arquivo: imports (3 blocos) -> constantes agrupadas por secao -> `LayoutError` -> entrada + ajudantes (`is_ready`, `reserve`, `send`) -> `read_*` -> `build_json` -> `process` + `check_*` -> apoio -> `__main__` chamando `run_test_mode()`.
+- Funcao pequena com uma responsabilidade e nome com verbo; quebrar se passar de ~25 linhas. `continue`/`return` cedo em vez de aninhar.
+- Nomes em ingles, mensagens em portugues; sem nome generico (`values`, `data`) nem abreviacao.
+- Sem numero/texto magico (constante com nome); sem duplicacao (constante ou funcao); regex compilada em constante com comentario de exemplo por parte.
+- Docstring de uma linha com exemplo entrada -> saida; comentario explica o porque.
+- Erros: juntar todos antes do `LayoutError`; mensagem com campo/aba/celula; `except` so especifico; layout errado -> `Pedido com erro` + `.erros.txt`. Nunca pular dado sem avisar.
+- `pathlib`; `datetime.now()` (nunca `utcnow`); `# CONFERIR:` no que falta confirmar; refatorar nao muda regra de negocio.
