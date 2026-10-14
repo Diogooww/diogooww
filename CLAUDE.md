@@ -40,10 +40,10 @@ Exemplo de robo de PDF: `implementacoes/gkt-exemplo-robo-pdf.md`.
 
 Detalhes em `decisoes-tecnicas/padrao-codigo-limpo.md`. Modelo: `novo_cliente.py`. Aplicar em todo codigo novo ou refeito.
 
-- Ordem do arquivo: imports (3 blocos) -> constantes agrupadas por secao -> `LayoutError` -> entrada + ajudantes (`is_ready`, `reserve`, `send`) -> `read_*` -> `build_json` -> `process` + `check_*` -> apoio -> `__main__` chamando `run_test_mode()`.
+- Ordem do arquivo: imports (3 blocos) -> constantes agrupadas por assunto (linha em branco, sem banner de secao) -> `LayoutError` -> entrada + ajudantes (`is_ready`, `reserve`, `send`) -> `read_*` -> `build_json` -> `process` + `check_*` -> apoio -> `__main__` chamando `run_test_mode()`.
 - Funcao pequena com uma responsabilidade e nome com verbo; quebrar se passar de ~25 linhas. `continue`/`return` cedo em vez de aninhar.
 - Nomes em ingles, mensagens em portugues; sem nome generico (`values`, `data`) nem abreviacao.
 - Sem numero/texto magico (constante com nome); sem duplicacao (constante ou funcao); regex compilada em constante com comentario de exemplo por parte.
-- Docstring de uma linha com exemplo entrada -> saida; comentario explica o porque.
+- Comentarios so os necessarios: o codigo se explica pelos nomes. Fica: o porque, exemplo do layout nas regex, exemplo entrada -> saida em conversao, retorno nao obvio, regra de negocio que alguem poderia "corrigir", `# CONFERIR:` temporario. Sai: comentario/docstring que repete o nome ou o codigo, banner de secao, codigo comentado.
 - Erros: juntar todos antes do `LayoutError`; mensagem com campo/aba/celula; `except` so especifico; layout errado -> `Pedido com erro` + `.erros.txt`. Nunca pular dado sem avisar.
 - `pathlib`; `datetime.now()` (nunca `utcnow`); `# CONFERIR:` no que falta confirmar; refatorar nao muda regra de negocio.
